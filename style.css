@@ -195,19 +195,22 @@ body {
 }
 
 #content ul li{
-	list-style-image: url(img/list.gif);
+	/*list-style-image: url(img/list.gif);*/
 	font-size: 1.07em;
-	list-style:none;
+	list-style:disc;
 	list-style-position:inside;
 	margin-left:-20px;
     padding:0;
 }
 
 #content ul li font.me{
-	color: #FFFFFF;
+	color: #4E4E4E;
 	font-weight:700;
 }
+
 
 #content ul#pub li {
 	margin-bottom: 0em;
 }
+
+
