@@ -199,7 +199,7 @@ body {
 	font-size: 1.07em;
 	list-style:disc;
 	list-style-position:inside;
-	margin-left:-20px;
+	/* margin-left:-20px; */
     padding:0;
 }
 
