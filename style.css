@@ -213,12 +213,6 @@ body {
 	margin-bottom: 0em;
 }
 
-#clstr_globe {
-	position: fixed;
-	left: 0;
-	bottom: 0;
 
-	transform: scale(0.2); 
-  }
 
 
