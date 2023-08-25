@@ -217,7 +217,8 @@ body {
 	position: fixed;
 	left: 0;
 	bottom: 0;
-	width: 20%;  
+
+	transform: scale(0.2); 
   }
 
 
