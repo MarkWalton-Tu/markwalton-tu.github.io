@@ -113,24 +113,25 @@
 						<font color="#FDF6E4" id="button"><b>&nbsp;中科院1区&nbsp;</b></font>
 						<font color="#FDF6E4" id="button"><b>&nbsp;IF = 10.4&nbsp;</b></font>&nbsp;
 						<font id="button1" color="#204E9A"><a target="_blank" href="https://github.com/MarkWalton-Tu/BLS-PML">&nbsp;Code&nbsp;</a></font>&nbsp; <br>
-		  				<!-- <span class="title" onclick="toggle('KBS-2023_abs')" style="cursor:pointer; u:hover"><font id="button1" color="#204E9A">&nbsp;Abstract&nbsp;</font></span>&nbsp;
+		  				<!-- <span class="title" onclick="toggle('KBS-2024_abs')" style="cursor:pointer; u:hover"><font id="button1" color="#204E9A">&nbsp;Abstract&nbsp;</font></span>&nbsp;
 							<font id="button1" color="#204E9A"><a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S0950705123004938">&nbsp;Paper&nbsp;</a></font>&nbsp;
 							<font id="button1" color="#204E9A"><a target="_blank" href="">&nbsp;Appendix&nbsp;</a></font>&nbsp;
 							<font id="button1" color="#204E9A"><a target="_blank" href="">&nbsp;Code&nbsp;</a></font>&nbsp; 
-							<span class="title" onclick="toggle('KBS-2023_bib')" style="cursor:pointer; u:hover"><font id="button1" color="#204E9A">&nbsp;Bibtex&nbsp;</font></span>&nbsp;
+							<span class="title" onclick="toggle('KBS-2024_bib')" style="cursor:pointer; u:hover"><font id="button1" color="#204E9A">&nbsp;Bibtex&nbsp;</font></span>&nbsp;
 							</div>
 							<br>
-							<span id="KBS-2023_abs" style="text-align:justify; display:none; margin-top: 8px; border:0pt solid; border-color: #7C7C86; border-radius: 3px 3px 3px 3px; padding-left: 12px; padding-top: 7px; padding-right: 12px; padding-bottom: 5px; width:85%; background-color:#DAD6D6">
-								In real-world application scenarios, multi-label learning (MLL) datasets often contain some irrelevant noisy labels, which degrades the performance of traditional multi-label learning models. In order to deal with this problem, partial multi-label learning (PML) is proposed, in which each instance is associated with a candidate label set, which includes multiple relevant ground-truth labels and some irrelevant noisy labels. The common strategy to deal with this problem is disambiguating the candidate label set, but the co-occurrence of noisy labels and ground-truth labels makes the disambiguation technique susceptible to error. In this paper, a novel disambiguation-free PML approach named PML-TT is proposed. Specifically, by adapting the tri-training framework, mutual cooperation and iteration between classifiers are used to correct noisy labels and improve the performance of the learning model. Moreover, the three-way decision is adapted to solve the conflict problem of the base classifier and obtain more useful training samples. In addition, the precise supervisory information of the non-candidate labels is exploited to make the predictions of the base classifier more accurate. Finally, experimental results on both synthetic and real-world PML datasets show that the proposed PML-TT approach can effectively reduce the negative influence of noisy labels and learn a robust model.
+							<span id="KBS-2024_abs" style="text-align:justify; display:none; margin-top: 8px; border:0pt solid; border-color: #7C7C86; border-radius: 3px 3px 3px 3px; padding-left: 12px; padding-top: 7px; padding-right: 12px; padding-bottom: 5px; width:85%; background-color:#DAD6D6">
+								Partial Multi-Label Learning (PML) is a more practical learning paradigm, in which the labeling information is ambiguated. Most existing PML algorithms rely on assumptions to resolve ambiguity. However, these assumptions do not account for the origin of the noise labeling and therefore fail to address the impact of noise on the learner’s performance at the root. In this paper, we will propose a PML method jointly granular ballbased robust feature selection and relevance fusion optimization (PML-GR). Specifically, in the first stage, we construct a granular ball to compute the core-set with weights and then design a feature importance evaluation function to assign weights to each feature in the core-set, resulting in a ranking of feature importance for the PML learner; in the second stage, based on the selected features, a fusion-based objective function is constructed to compute the label confidence by taking into account the joint effect of the global sample similarity and local label relevance. Finally, a multi-label prediction model is learned by fitting the multi-output regressor to the label confidence. The experimental results demonstrate that the proposed method achieves competitive generalization performance by effective feature selection and relevance fusion optimization, which can focus more on discriminative features and minimize the effect of noisy labels during training.
 							</span>
-							<span id="KBS-2023_bib" style="display:none; margin-top: 8px; border:0pt solid; border-color: #7C7C86; border-radius: 3px 3px 3px 3px; padding-left: 12px; padding-top: 7px; padding-right: 12px; padding-bottom: 5px; width:85%; background-color:#DAD6D6">
-								@article{qian2023partial, <br>
-									title={Partial multi-label learning via three-way decision-based tri-training},<br>
-									author={Qian, Wenbin and Tu, Yanqiang and Qian, Jin and Shu, Wenhao},<br>
-									journal={Knowledge-Based Systems},<br>
-									pages={110743},<br>
-									year={2023},<br>
-									publisher={Elsevier}<br>
+							<span id="KBS-2024_bib" style="display:none; margin-top: 8px; border:0pt solid; border-color: #7C7C86; border-radius: 3px 3px 3px 3px; padding-left: 12px; padding-top: 7px; padding-right: 12px; padding-bottom: 5px; width:85%; background-color:#DAD6D6">
+								@article{QIAN2024111365, <br>
+									title = {Partial multi-label learning via robust feature selection and relevance fusion optimization}, <br>
+									journal = {Knowledge-Based Systems}, <br>
+									volume = {286}, <br>
+									pages = {111365}, <br>
+									year = {2024}, <br>
+									issn = {0950-7051}, <br>
+									doi = {https://doi.org/10.1016/j.knosys.2023.111365}, <br>
 								  }
 							</span> -->
 							
@@ -140,32 +141,33 @@
 	  				<li>
 						Partial Multi-Label Learning via Robust Feature Selection and	Relevance Fusion Optimization.<br>
 		  				<font style="margin-left: 20px;"  class="coauthors" color="#606060">Wenbin Qian</font>, <font class="me">Yanqiang Tu</font><font class="coauthors" color="#606060">, Jintao Huang</font><font class="coauthors" color="#606060">, Weiping Ding.</font><br>
-		  				<font style="margin-left: 20px;"  class="conf" color="#000000">Knowledge-Based Systems (<font color="#006eb8">KBS</font>). (in press)</font><br>
+		  				<font style="margin-left: 20px;"  class="conf" color="#000000">Knowledge-Based Systems (<font color="#006eb8">KBS</font>). </font><br>
 		  				<div id="buttons">
 		  				<!-- <font style="margin-left: 20px;"  color="#FDF6E4" id="button"><b>&nbsp;CCF C&nbsp;</b></font> -->
 		  				<font style="margin-left: 20px;"  color="#FDF6E4" id="button"><b>&nbsp;CCF C&nbsp;</b></font>
 						<font color="#FDF6E4" id="button"><b>&nbsp;中科院1区&nbsp;</b></font>
 						<font color="#FDF6E4" id="button"><b>&nbsp;IF = 8.8&nbsp;</b></font>&nbsp;
-		  				<!-- <span class="title" onclick="toggle('KBS-2023_abs')" style="cursor:pointer; u:hover"><font id="button1" color="#204E9A">&nbsp;Abstract&nbsp;</font></span>&nbsp;
-							<font id="button1" color="#204E9A"><a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S0950705123004938">&nbsp;Paper&nbsp;</a></font>&nbsp;
-							<font id="button1" color="#204E9A"><a target="_blank" href="">&nbsp;Appendix&nbsp;</a></font>&nbsp;
-							<font id="button1" color="#204E9A"><a target="_blank" href="">&nbsp;Code&nbsp;</a></font>&nbsp; 
-							<span class="title" onclick="toggle('KBS-2023_bib')" style="cursor:pointer; u:hover"><font id="button1" color="#204E9A">&nbsp;Bibtex&nbsp;</font></span>&nbsp;
-							</div>
-							<br>
-							<span id="KBS-2023_abs" style="text-align:justify; display:none; margin-top: 8px; border:0pt solid; border-color: #7C7C86; border-radius: 3px 3px 3px 3px; padding-left: 12px; padding-top: 7px; padding-right: 12px; padding-bottom: 5px; width:85%; background-color:#DAD6D6">
-								In real-world application scenarios, multi-label learning (MLL) datasets often contain some irrelevant noisy labels, which degrades the performance of traditional multi-label learning models. In order to deal with this problem, partial multi-label learning (PML) is proposed, in which each instance is associated with a candidate label set, which includes multiple relevant ground-truth labels and some irrelevant noisy labels. The common strategy to deal with this problem is disambiguating the candidate label set, but the co-occurrence of noisy labels and ground-truth labels makes the disambiguation technique susceptible to error. In this paper, a novel disambiguation-free PML approach named PML-TT is proposed. Specifically, by adapting the tri-training framework, mutual cooperation and iteration between classifiers are used to correct noisy labels and improve the performance of the learning model. Moreover, the three-way decision is adapted to solve the conflict problem of the base classifier and obtain more useful training samples. In addition, the precise supervisory information of the non-candidate labels is exploited to make the predictions of the base classifier more accurate. Finally, experimental results on both synthetic and real-world PML datasets show that the proposed PML-TT approach can effectively reduce the negative influence of noisy labels and learn a robust model.
-							</span>
-							<span id="KBS-2023_bib" style="display:none; margin-top: 8px; border:0pt solid; border-color: #7C7C86; border-radius: 3px 3px 3px 3px; padding-left: 12px; padding-top: 7px; padding-right: 12px; padding-bottom: 5px; width:85%; background-color:#DAD6D6">
-								@article{qian2023partial, <br>
-									title={Partial multi-label learning via three-way decision-based tri-training},<br>
-									author={Qian, Wenbin and Tu, Yanqiang and Qian, Jin and Shu, Wenhao},<br>
-									journal={Knowledge-Based Systems},<br>
-									pages={110743},<br>
-									year={2023},<br>
-									publisher={Elsevier}<br>
-								  }
-							</span> -->
+		  				<span class="title" onclick="toggle('KBS-2024_abs')" style="cursor:pointer; u:hover"><font id="button1" color="#204E9A">&nbsp;Abstract&nbsp;</font></span>&nbsp;
+						<font id="button1" color="#204E9A"><a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S0950705123011139">&nbsp;Paper&nbsp;</a></font>&nbsp;
+							<!-- <font id="button1" color="#204E9A"><a target="_blank" href="">&nbsp;Appendix&nbsp;</a></font>&nbsp;
+							<font id="button1" color="#204E9A"><a target="_blank" href="">&nbsp;Code&nbsp;</a></font>&nbsp;  -->
+						<span class="title" onclick="toggle('KBS-2024_bib')" style="cursor:pointer; u:hover"><font id="button1" color="#204E9A">&nbsp;Bibtex&nbsp;</font></span>&nbsp;
+						</div>
+						<br>
+						<span id="KBS-2024_abs" style="text-align:justify; display:none; margin-top: 8px; border:0pt solid; border-color: #7C7C86; border-radius: 3px 3px 3px 3px; padding-left: 12px; padding-top: 7px; padding-right: 12px; padding-bottom: 5px; width:85%; background-color:#DAD6D6">
+							Partial Multi-Label Learning (PML) is a more practical learning paradigm, in which the labeling information is ambiguated. Most existing PML algorithms rely on assumptions to resolve ambiguity. However, these assumptions do not account for the origin of the noise labeling and therefore fail to address the impact of noise on the learner’s performance at the root. In this paper, we will propose a PML method jointly granular ballbased robust feature selection and relevance fusion optimization (PML-GR). Specifically, in the first stage, we construct a granular ball to compute the core-set with weights and then design a feature importance evaluation function to assign weights to each feature in the core-set, resulting in a ranking of feature importance for the PML learner; in the second stage, based on the selected features, a fusion-based objective function is constructed to compute the label confidence by taking into account the joint effect of the global sample similarity and local label relevance. Finally, a multi-label prediction model is learned by fitting the multi-output regressor to the label confidence. The experimental results demonstrate that the proposed method achieves competitive generalization performance by effective feature selection and relevance fusion optimization, which can focus more on discriminative features and minimize the effect of noisy labels during training.
+						</span>
+						<span id="KBS-2024_bib" style="display:none; margin-top: 8px; border:0pt solid; border-color: #7C7C86; border-radius: 3px 3px 3px 3px; padding-left: 12px; padding-top: 7px; padding-right: 12px; padding-bottom: 5px; width:85%; background-color:#DAD6D6">
+							@article{QIAN2024111365, <br>
+								title = {Partial multi-label learning via robust feature selection and relevance fusion optimization}, <br>
+								journal = {Knowledge-Based Systems}, <br>
+								volume = {286}, <br>
+								pages = {111365}, <br>
+								year = {2024}, <br>
+								issn = {0950-7051}, <br>
+								doi = {https://doi.org/10.1016/j.knosys.2023.111365}, <br>
+								}
+						</span>
 	  				</li>
 					<br>
 
